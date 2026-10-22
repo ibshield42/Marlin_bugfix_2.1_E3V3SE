@@ -1158,7 +1158,7 @@
  */
 #define FT_MOTION
 #if ENABLED(FT_MOTION)
-  #define FTM_IS_DEFAULT_MOTION               // Use FT Motion as the factory default?
+  //#define FTM_IS_DEFAULT_MOTION               // Keep FT Motion OFF by default; M493 S0 as verified
   //#define FT_MOTION_MENU                      // Provide a MarlinUI menu to set M493 and M494 parameters
 
   //#define NO_STANDARD_MOTION                  // Disable the standard motion system entirely to save Flash and RAM
@@ -3590,7 +3590,7 @@
   #define U_HYBRID_THRESHOLD       3  // [mm/s]
   #define V_HYBRID_THRESHOLD       3
   #define W_HYBRID_THRESHOLD       3
-  #define E0_HYBRID_THRESHOLD     30
+  #define E0_HYBRID_THRESHOLD     24
   #define E1_HYBRID_THRESHOLD     30
   #define E2_HYBRID_THRESHOLD     30
   #define E3_HYBRID_THRESHOLD     30
