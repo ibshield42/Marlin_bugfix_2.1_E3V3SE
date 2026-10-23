@@ -193,7 +193,7 @@
 #endif
 
 #if PIN_EXISTS(FAN1)
-  #define FAN0_SOFT_PWM
+  #define FAN_SOFT_PWM
 #endif
 
 //
